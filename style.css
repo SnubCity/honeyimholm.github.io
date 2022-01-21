@@ -457,6 +457,12 @@ bring monkey gif up (monkey jumps down at 813 px
     height: 75%;
 }
 
+@media (min-width:1024px){
+    .member-features .feature-textboxes{
+        padding-right: 60px;
+    }
+}
+
 @media (max-width:1024px){
     .feature-textboxes .textbox{
         padding-bottom: 30px;
