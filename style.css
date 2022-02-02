@@ -378,7 +378,7 @@ bring monkey gif up (monkey jumps down at 813 px
 
 @media (max-width:1024px){
     .member-features{
-        background-image: url("mobile_line_bg_2_cutoff.png");
+        background-image: url("mobile_member_features_3.png");
         height: 1300px;
     }    
     .member-features .feature-textboxes{
@@ -491,6 +491,230 @@ bring monkey gif up (monkey jumps down at 813 px
     padding: 10px;
     line-height: 1.4;
     font-family: Metropolis;
+}
+
+.Charity
+{
+    background: #121B36;
+    width: auto;
+    height: 450px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.Charity .Text-Section{
+    height:100%;
+    width: 50%;
+    padding: 20px;
+    padding-left:50px;
+}
+
+.Charity .Text-Section .Title{
+    padding-top:20px;
+    font-family: PixeloidSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #72DBC8;
+    padding-bottom: 40px;
+}
+
+.Charity .Text-Section .Description{
+    font-family: Metropolis;
+    font-size: 16px;
+    line-height: 19px;
+    color: #72DBC8;
+    padding-bottom:40px;
+    padding-left:30px;
+}
+
+.Charity .Text-Section .Summary{
+    font-family: Metropolis;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: bolder;
+    color: #72DBC8;
+    padding-left:30px;
+}
+
+.Charity .Image-Section{
+    height:100%;
+    width: 50%;
+}
+
+.Charity .Image-Section .monke-pic{
+    height: 400px;
+    padding-top:25px;
+}
+
+.Roadmap{
+    background-image: url("roadmap_bg.png");
+    width: auto;
+    height: 1100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2d74df;
+}
+
+.Roadmap .title-wrapper{
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.Roadmap .Title{
+    font-size: 36px;
+    line-height: 44px;
+    color: #1C5E50;
+    font-family: PixeloidSans;
+    padding: 20px;
+    line-height: 44px;
+}
+
+.Roadmap .wrapper{
+    width: 800px;
+    margin-left:0px;
+}
+
+.Roadmap .Caption{
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+    padding-top:10px;
+    line-height: 1.2;
+    color: #1C5E50;
+    font-family: Metropolis;
+}
+
+.Roadmap .textbox-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.Roadmap .padder{
+    padding-left:160px;
+}
+
+.Roadmap .textbox{
+    padding: 10px;
+    width: 600px;
+    height: 40px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding-left:20px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Roadmap .textbox .item{
+    font-family: PixeloidSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #F47936;
+}
+
+.Roadmap .textbox .date{
+    font-family: Metropolis;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 19px;
+    padding-top: 7px;
+}
+
+.Roadmap .textbox-col .break{
+    flex-basis: 100%;
+    height: 20px;
+}
+
+.Team{
+    width: auto;
+    height: auto;
+    background: #F7F8FA;
+}
+
+
+.Team .Title{
+    font-size: 36px;
+    color:  #000000;
+    font-family: PixeloidSans;
+    padding: 20px;
+    padding-top: 40px;
+    line-height: 44px;
+}
+
+.Team .Team-pfp-row{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.Team-member{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.Team-member .Text{
+    text-align: left;
+    font-size: 16px;
+    font-family: Metropolis;
+    padding: 10px;
+    padding-top:0px;
+
+}
+
+.Team-member .team-pic{
+    width: 100%;
+    justify-content: center;
+}
+
+.Team .break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.Team .break-mobile {
+    flex-basis: 100%;
+    height: 0;
+}
+
+@media (min-width:1024px){
+    .Team .break-mobile {
+        display: none;
+    }
+}
+
+@media (max-width:1024px){
+    .Team .Team-pfp-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .Team-member{
+        width: 175px;
+    }
+    .Team-member .Text{
+        font-size: 13px;
+    }
+}
+
+.Team .Name{
+    font-size: 36px;
+    font-family: PixeloidSans;
+    color: #F47936;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 
 .Footer {
