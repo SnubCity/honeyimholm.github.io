@@ -1,15 +1,11 @@
 @font-face {
     font-family: Pixeboy;
     src: url(Pixeboy-z8XGD.ttf);
-  }
-@font-face {
-    font-family: Metropolis;
-    src: url(metropolis.regular.otf);
 }
 
 @font-face {
-    font-family: PixeloidSans;
-    src: url(PixeloidSans-nR3g1.ttf);
+    font-family: Metropolis;
+    src: url(metropolis.regular.otf);
 }
 
 body {
@@ -240,9 +236,10 @@ bring monkey gif up (monkey jumps down at 813 px
 
 
 .story .story-title{
-    font-size: 36px;
+    font-size: 56px;
+    font-weight: normal;
     color: #C8F7EF;
-    font-family: PixeloidSans;
+    font-family: PixeBoy;
     text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
@@ -388,7 +385,7 @@ bring monkey gif up (monkey jumps down at 813 px
 }
 
 .member-features .Title{
-    font-family: Pixeboy;
+    font-family: PixeBoy;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -514,10 +511,8 @@ bring monkey gif up (monkey jumps down at 813 px
 
 .Charity .Text-Section .Title{
     padding-top:20px;
-    font-family: PixeloidSans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
+    font-family: PixeBoy;
+    font-size: 56px;
     line-height: 44px;
     color: #72DBC8;
     padding-bottom: 40px;
@@ -529,16 +524,16 @@ bring monkey gif up (monkey jumps down at 813 px
     line-height: 19px;
     color: #72DBC8;
     padding-bottom:40px;
-    padding-left:30px;
+    padding-left:0px;
 }
 
 .Charity .Text-Section .Summary{
     font-family: Metropolis;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 28px;
     font-weight: bolder;
     color: #72DBC8;
-    padding-left:30px;
+    padding-left:0px;
 }
 
 .Charity .Image-Section{
@@ -560,15 +555,18 @@ bring monkey gif up (monkey jumps down at 813 px
         width: 100%;
         height: auto;
         padding-bottom: 0px;
+        padding-left: 20px;
     }
 
     .Charity .Text-Section .Summary{
         padding-left:0px;
         font-size: 24px;
+        text-align: center;
     }
 
     .Charity .Text-Section .Title{
-        font-size: 36px;
+        font-size: 46px;
+        text-align: center;
     }
 
     .Charity .Text-Section .Description{
@@ -603,10 +601,10 @@ bring monkey gif up (monkey jumps down at 813 px
 }
 
 .Roadmap .Title{
-    font-size: 36px;
+    font-size: 56px;
     line-height: 44px;
     color: #1C5E50;
-    font-family: PixeloidSans;
+    font-family: PixeBoy;
     padding: 20px;
     padding-top: 10px;
     line-height: 44px;
@@ -664,10 +662,10 @@ bring monkey gif up (monkey jumps down at 813 px
 }
 
 .Roadmap .textbox .item{
-    font-family: PixeloidSans;
+    font-family: PixeBoy;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 30px;
     color: #F47936;
 }
@@ -702,7 +700,8 @@ bring monkey gif up (monkey jumps down at 813 px
         padding-top: 10px;
     }
     .Roadmap .textbox .item{
-        font-size: 24px;
+        font-size: 34px;
+        font-weight: lighter;
     }
     .Roadmap .padder .circle{
         display: none;
@@ -713,6 +712,8 @@ bring monkey gif up (monkey jumps down at 813 px
     .Roadmap .textbox .date{
         text-align: right;
         padding-top: 4px;
+        font-size: 18px;
+
     }
     .Roadmap .Caption{
         display: none;
@@ -739,9 +740,10 @@ bring monkey gif up (monkey jumps down at 813 px
 
 
 .Team .Title{
-    font-size: 36px;
+    font-size: 46px;
     color:  #000000;
-    font-family: PixeloidSans;
+    font-family: PixeBoy;
+    font-weight: normal;
     padding: 20px;
     padding-top: 40px;
     line-height: 44px;
@@ -770,7 +772,8 @@ bring monkey gif up (monkey jumps down at 813 px
 }
 
 .Team-member .team-pic{
-    width: 100%;
+    width: 175px;
+    height: 175px;
     justify-content: center;
 }
 
@@ -781,7 +784,7 @@ bring monkey gif up (monkey jumps down at 813 px
 
 .Team .break-mobile {
     flex-basis: 100%;
-    height: 0;
+    height: 10px;
 }
 
 @media (min-width:1024px){
@@ -802,13 +805,17 @@ bring monkey gif up (monkey jumps down at 813 px
     .Team-member .Text{
         font-size: 13px;
     }
+
+    .Team .Title{
+        text-align: center;
+        font-size: 46px;
+    }
 }
 
 .Team .Name{
-    font-size: 36px;
-    font-family: PixeloidSans;
+    font-size: 30px;
+    font-family: PixeBoy;
     color: #F47936;
-    font-size: 24px;
     line-height: 30px;
     padding-left:10px;
     padding-top:10px;
