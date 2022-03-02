@@ -849,10 +849,6 @@ bring monkey gif up (monkey jumps down at 813 px
     justify-content: start;
 }
 
-.Team-member .personal_link{
-    
-}
-
 .Team-member .twitter_logo{
     height: 35px;
     width: 35px;
@@ -865,6 +861,13 @@ bring monkey gif up (monkey jumps down at 813 px
     width: 25px;
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.Team-member .verified{
+    height: 25px;
+    width: 25px;
+    padding-top: 10px;
+    padding-left: 0px;
 }
 
 .Team-member .linkedin_logo{
