@@ -647,6 +647,42 @@ bring monkey gif up (monkey jumps down at 813 px
     }
 }
 
+@media (min-width:1700px){
+    .Roadmap .padder{
+        margin-left:10px;
+    }
+}
+
+@media (min-width:1776px){
+    .Roadmap .padder{
+        margin-left:14px;
+    }
+}
+
+@media (min-width:1840px){
+    .Roadmap .padder{
+        margin-left:18px;
+    }
+}
+
+@media (min-width:1925px){
+    .Roadmap .padder{
+        margin-left:23px;
+    }
+}
+
+@media (min-width:2000px){
+    .Roadmap .padder{
+        margin-left:26px;
+    }
+}
+
+@media (min-width:2050px){
+    .Roadmap .padder{
+        margin-left:28px;
+    }
+}
+
 .Roadmap .checked-textbox{
     padding: 10px;
     width: 600px;
