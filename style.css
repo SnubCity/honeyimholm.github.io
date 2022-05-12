@@ -955,6 +955,11 @@ bring monkey gif up (monkey jumps down at 813 px
     color: #C8F7EF;
 }
 
+.Footer .TOS{
+    color: #C8F7EF;
+    background-color: transparent;
+}
+
 @media (max-width:1024px){
     .Footer {
         height: 60px;
@@ -964,4 +969,59 @@ bring monkey gif up (monkey jumps down at 813 px
     }
     .Footer .copyright{
     }
+}
+
+.tos{
+    background-image: url("Background\ Train.png");
+    width: auto;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+
+
+.tos .tos-title{
+    font-size: 56px;
+    font-weight: normal;
+    color: #C8F7EF;
+    font-family: PixeBoy;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*TODO:center this*/
+.tos .tos-card{
+    width: 800px;
+    align-items: center;
+}
+
+.tos .tos-body{
+    color: #C8F7EF;
+    font-family: Metropolis;
+    font-size: 20px;
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .tos{
+        width: 100%;
+        height: auto;
+    }
+    .tos .tos-title{
+        padding-top: 10px;
+    }
+    .tos .tos-card{
+        width: 75%;
+    }
+
+    .tos .tos-body{
+        font-size: 17px;
+    }
+    
 }
